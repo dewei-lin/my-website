@@ -2,16 +2,21 @@ project:
   type: website
 
 website:
-  title: "today"
+  title: "The Space"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
-
+        text: "About me"
+      - href: firsttimeever.qmd
+        text: "First Time Ever"
+      - href: trips.qmd
+        text: "Trips"
+      - href: websitehow.qmd
+        text: "About the website"
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
+publish:
+  gh-pages: true

@@ -1,0 +1,16 @@
+---
+title: "About the website"
+editor: visual
+---
+
+# How I made the website?
+
+I created this website with Quarto from **R** and **Github**, the two major references are:
+
+## [The official guide:](https://quarto.org/docs/websites/)
+
+![](media/officialtut.png){fig-align="center"}
+
+## [And another tutorial from Sam:](https://ucsb-meds.github.io/creating-quarto-websites/)
+
+![](media/sectut.png){fig-align="center"}

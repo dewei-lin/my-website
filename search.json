@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "websitehow.html",
+    "href": "websitehow.html",
+    "title": "About the website",
+    "section": "",
+    "text": "I created this website with Quarto from R and Github, the two major references are:"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dewei Lin",

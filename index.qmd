@@ -16,6 +16,7 @@ about:
 format: 
  html:  
    css: style.css
+---15*1
 ---
 
 Hello! My name is Dewei (duh-way) and I'm currently a Master student in [Biostatistics program at UNC Chapel Hill](https://sph.unc.edu/bios/biostatistics/). Before my journey in UNC, I studied Statistics, Economics and Philosophy at [University of Toronto, Scarborough Campus](https://www.utsc.utoronto.ca/home/), where I spent unforgettable three years.

@@ -21,7 +21,7 @@ Always want to try how it feels like to build a PC on my own, made a several mis
 For those curious, here are the details of my build:
 
 | Item                                                                                                                                                                                                     | Price  | Total       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------|
+|------------------------------------------------------|---------|---------|
 | PNY GeForce RTX™ 4070 Super 12GB Verto™ OC Dual Fan Graphics Card DLSS 3 (NVIDIA GeForce SFF-Ready, 192-bit, GDDR6X, PCIe 4.0, HDMI/DisplayPort, Supports 4k, incl. Adapter, 2 Slot)                     | 589.99 |             |
 | Corsair VENGEANCE RGB PRO SL DDR4 32GB (2x16GB) 3600MHz CL18 Intel XMP 2.0 AMD Ryzen iCUE Compatible Computer Memory - White (CMH32GX4M2D3600C18W)                                                       | 76     |             |
 | MSI PRO H610M-G DDR4 Motherboard (12th/13th/14th Gen Intel Core, LGA 1700 Socket, DDR4, PCIe 4, SATA 6Gb/s, 1Gbps LAN, M.2 Slots, USB 3.2, mATX)                                                         | 79     |             |
@@ -32,3 +32,13 @@ For those curious, here are the details of my build:
 | Corsair RM750e (2023) Fully Modular Low-Noise Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 Plus Gold Efficiency - Modern Standby Support - Black                            | 99.99  | **1199.27** |
 
 \*I shall note that I totally don't recommend the motherboard, it always causes trouble.
+
+### 9/11/2024: Made my first website
+
+Excited about this!!
+
+### 9/11/2024: Failed my first road test
+
+Arrived at DMV by 4:50 AM, but started the road test almost 1 PM. And I failed the road test because I forgot to switch from P to S/D, funny but sad...
+
+![](media/DMV.jpg){fig-align="center" width="462"}

@@ -20,16 +20,16 @@ Always want to try how it feels like to build a PC on my own, made a several mis
 
 For those curious, here are the details of my build:
 
-| Item                                                                                                                                                                                                     | Price  | Total       |
-|------------------------------------------------------|---------|---------|
-| PNY GeForce RTX™ 4070 Super 12GB Verto™ OC Dual Fan Graphics Card DLSS 3 (NVIDIA GeForce SFF-Ready, 192-bit, GDDR6X, PCIe 4.0, HDMI/DisplayPort, Supports 4k, incl. Adapter, 2 Slot)                     | 589.99 |             |
-| Corsair VENGEANCE RGB PRO SL DDR4 32GB (2x16GB) 3600MHz CL18 Intel XMP 2.0 AMD Ryzen iCUE Compatible Computer Memory - White (CMH32GX4M2D3600C18W)                                                       | 76     |             |
-| MSI PRO H610M-G DDR4 Motherboard (12th/13th/14th Gen Intel Core, LGA 1700 Socket, DDR4, PCIe 4, SATA 6Gb/s, 1Gbps LAN, M.2 Slots, USB 3.2, mATX)                                                         | 79     |             |
-| Intel Core i5-12400 Desktop Processor 18M Cache, up to 4.40 GHz                                                                                                                                          | 126    |             |
-| CORSAIR 4000D AIRFLOW Tempered Glass Mid-Tower ATX Case - High-Airflow - Cable Management System - Spacious Interior - Two Included 120 mm Fans - Black                                                  | 92     |             |
-| Thermalright Assassin X120 Refined SE ARGB CPU Air Cooler, 4 Heat pipes, TL-C12C-S PWM Fan, Aluminium Heatsink Cover, AGHP Technology, for AMD AM4/AM5/Intel LGA 1150/1151/1155/1156/1200/1700 (SE ARGB) | 18.90  |             |
-| Western Digital 2TB WD Blue SN580 NVMe Internal Solid State Drive SSD - Gen4 x4 PCIe 16Gb/s, M.2 2280, Up to 4,150 MB/s - WDS200T3B0E                                                                    | 117.39 |             |
-| Corsair RM750e (2023) Fully Modular Low-Noise Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 Plus Gold Efficiency - Modern Standby Support - Black                            | 99.99  | **1199.27** |
+| Item | Price | Total |
+|-----------------------------------------------|-------------|-------------|
+| PNY GeForce RTX™ 4070 Super 12GB Verto™ OC Dual Fan Graphics Card DLSS 3 (NVIDIA GeForce SFF-Ready, 192-bit, GDDR6X, PCIe 4.0, HDMI/DisplayPort, Supports 4k, incl. Adapter, 2 Slot) | 589.99 |  |
+| Corsair VENGEANCE RGB PRO SL DDR4 32GB (2x16GB) 3600MHz CL18 Intel XMP 2.0 AMD Ryzen iCUE Compatible Computer Memory - White (CMH32GX4M2D3600C18W) | 76 |  |
+| MSI PRO H610M-G DDR4 Motherboard (12th/13th/14th Gen Intel Core, LGA 1700 Socket, DDR4, PCIe 4, SATA 6Gb/s, 1Gbps LAN, M.2 Slots, USB 3.2, mATX) | 79 |  |
+| Intel Core i5-12400 Desktop Processor 18M Cache, up to 4.40 GHz | 126 |  |
+| CORSAIR 4000D AIRFLOW Tempered Glass Mid-Tower ATX Case - High-Airflow - Cable Management System - Spacious Interior - Two Included 120 mm Fans - Black | 92 |  |
+| Thermalright Assassin X120 Refined SE ARGB CPU Air Cooler, 4 Heat pipes, TL-C12C-S PWM Fan, Aluminium Heatsink Cover, AGHP Technology, for AMD AM4/AM5/Intel LGA 1150/1151/1155/1156/1200/1700 (SE ARGB) | 18.90 |  |
+| Western Digital 2TB WD Blue SN580 NVMe Internal Solid State Drive SSD - Gen4 x4 PCIe 16Gb/s, M.2 2280, Up to 4,150 MB/s - WDS200T3B0E | 117.39 |  |
+| Corsair RM750e (2023) Fully Modular Low-Noise Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 Plus Gold Efficiency - Modern Standby Support - Black | 99.99 | **1199.27** |
 
 \*I shall note that I totally don't recommend the motherboard, it always causes trouble.
 
@@ -42,3 +42,21 @@ Excited about this!!
 Arrived at DMV by 4:50 AM, but started the road test almost 1 PM. And I failed the road test because I forgot to switch from P to S/D, funny but sad...
 
 ![](media/DMV.jpg){fig-align="center" width="462"}
+
+### 9/18/2024: Got the license!
+
+I was and am not very confident at my driving, and I literally forced myself to learn how to drive...but here we are!
+
+![](media/license.jpg){fig-align="center" width="290"}
+
+### 9/21/2024: Reproduced a research paper
+
+Took me a while to familiarize myself with Longleaf, but I made it! This is going to be one of the projects that I will be working on: deep treatment learning!
+
+![](media/simulation-II.png){fig-align="center" width="406"}
+
+### 9/27/2024: Rmd+Docker+Makefile
+
+Spent this whole afternoon just to figure out how to knit the Rmd file with docker and makefile...First step to reproducible research!
+
+![](media/docker.png){fig-align="center" width="410"}

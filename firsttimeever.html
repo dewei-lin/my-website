@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Space - First time ever</title>
+<title>First time ever – The Space</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -124,6 +124,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#built-my-first-pc" id="toc-built-my-first-pc" class="nav-link" data-scroll-target="#built-my-first-pc">8/11/2024: Built my first PC</a></li>
   <li><a href="#made-my-first-website" id="toc-made-my-first-website" class="nav-link" data-scroll-target="#made-my-first-website">9/11/2024: Made my first website</a></li>
   <li><a href="#failed-my-first-road-test" id="toc-failed-my-first-road-test" class="nav-link" data-scroll-target="#failed-my-first-road-test">9/11/2024: Failed my first road test</a></li>
+  <li><a href="#got-the-license" id="toc-got-the-license" class="nav-link" data-scroll-target="#got-the-license">9/18/2024: Got the license!</a></li>
+  <li><a href="#reproduced-a-research-paper" id="toc-reproduced-a-research-paper" class="nav-link" data-scroll-target="#reproduced-a-research-paper">9/21/2024: Reproduced a research paper</a></li>
+  <li><a href="#rmddockermakefile" id="toc-rmddockermakefile" class="nav-link" data-scroll-target="#rmddockermakefile">9/27/2024: Rmd+Docker+Makefile</a></li>
   </ul>
 </nav>
     </div>
@@ -181,9 +184,9 @@ ul.task-list li input[type="checkbox"] {
 <p>For those curious, here are the details of my build:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 75%">
-<col style="width: 12%">
-<col style="width: 12%">
+<col style="width: 64%">
+<col style="width: 17%">
+<col style="width: 17%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -249,6 +252,33 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="media/DMV.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="462"></p>
 </figure>
 </div>
+</section>
+<section id="got-the-license" class="level3">
+<h3 class="anchored" data-anchor-id="got-the-license">9/18/2024: Got the license!</h3>
+<p>I was and am not very confident at my driving, and I literally forced myself to learn how to drive…but here we are!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/license.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="290"></p>
+</figure>
+</div>
+</section>
+<section id="reproduced-a-research-paper" class="level3">
+<h3 class="anchored" data-anchor-id="reproduced-a-research-paper">9/21/2024: Reproduced a research paper</h3>
+<p>Took me a while to familiarize myself with Longleaf, but I made it! This is going to be one of the projects that I will be working on: deep treatment learning!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/simulation-II.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="406"></p>
+</figure>
+</div>
+</section>
+<section id="rmddockermakefile" class="level3">
+<h3 class="anchored" data-anchor-id="rmddockermakefile">9/27/2024: Rmd+Docker+Makefile</h3>
+<p>Spent this whole afternoon just to figure out how to knit the Rmd file with docker and makefile…First step to reproducible research!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/docker.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="410"></p>
+</figure>
+</div>
 
 
 </section>
@@ -289,18 +319,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -332,7 +351,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/dewei-lin\.github\.io\/my-website\/");
@@ -340,7 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
